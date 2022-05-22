@@ -1,20 +1,20 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { TableBodyComponent } from './table-body.component';
+import { CommitListComponent } from './commit-list.component';
 
-describe('TableBodyComponent', () => {
-  let component: TableBodyComponent;
-  let fixture: ComponentFixture<TableBodyComponent>;
+describe('CommitListComponent', () => {
+  let component: CommitListComponent;
+  let fixture: ComponentFixture<CommitListComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ TableBodyComponent ]
+      declarations: [ CommitListComponent ]
     })
     .compileComponents();
   });
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(TableBodyComponent);
+    fixture = TestBed.createComponent(CommitListComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
