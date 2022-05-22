@@ -1,0 +1,43 @@
+.root {
+  --borderColor: white;
+}
+
+.commit-container {
+  margin: 1rem 0;
+  color: white;
+  border: 1px solid;
+  border-color: var(--borderColor);
+  border-radius: 0.5rem;
+}
+
+.commit-item {
+  padding: 0.5rem 0.5rem;
+}
+
+.commit-item:not(:first-child) {
+  border-top: solid 1px;
+  border-color: var(--borderColor);
+}
+
+strong {
+  color: #d8d8d8;
+}
+
+p {
+  color: #959595;
+}
+
+h3 {
+  padding: 0.25rem 0rem;
+}
+
+.avatar-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.avatar-img {
+  width: 30px;
+  border-radius: 100%;
+  margin: 0.25rem 0.5rem 0.25rem 0rem;
+}
