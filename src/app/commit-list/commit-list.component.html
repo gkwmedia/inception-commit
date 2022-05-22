@@ -1,1 +1,18 @@
-<p>commit-list works!</p>
+<div class="wrapper">
+  <div class="container">
+    <div class="commit-container">
+      <div class="commit-item" *ngFor="let commit of commits; index as i">
+        <div class="commit-left">
+          <h3>{{ commit.commit.message }}</h3>
+          <div class="avatar-wrapper">
+            <img class="avatar-img" [src]="commit.author.avatar_url" />
+            <p>
+              <strong>{{ commit.author.login }}</strong> committed
+              {{ commit.commit.author.date | date: "medium" }}
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
