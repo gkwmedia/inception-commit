@@ -146,3 +146,7 @@ select {
     scroll-behavior: auto !important;
   }
 }
+
+.wrapper {
+  margin-top: 80px;
+}
