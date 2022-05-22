@@ -23,6 +23,10 @@
   border-color: var(--borderColor);
 }
 
+.commit-right {
+  margin-left: 1rem;
+}
+
 .link-container {
   width: fit-content;
 }
@@ -35,6 +39,12 @@ a {
 }
 
 .message-link:hover {
+  color: rgb(128, 187, 255);
+  text-decoration: underline;
+}
+
+.name-link:hover {
+  color: white;
   text-decoration: underline;
 }
 

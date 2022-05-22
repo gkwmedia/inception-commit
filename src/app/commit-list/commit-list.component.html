@@ -12,7 +12,14 @@
           <div class="avatar-wrapper">
             <img class="avatar-img" [src]="commit.author.avatar_url" />
             <p>
-              <strong>{{ commit.author.login }}</strong> committed
+              <a
+                class="name-link"
+                [href]="'https://github.com/' + commit.author.login"
+                target="_blank"
+              >
+                <strong>{{ commit.author.login }}</strong>
+              </a>
+              committed
               {{ commit.commit.author.date | date: "medium" }}
             </p>
           </div>
