@@ -1,25 +1,20 @@
 <div class="wrapper">
-  <div *ngFor="let item of commits">
-    {{ item.author.id }}
-    <img [src]="item.author.avatar_url" />
-  </div>
-  <!-- <thead>
-    <tr>
-      <th scope="col">#</th>
-      <th scope="col">Country</th>
-      <th scope="col">Area</th>
-      <th scope="col">Population</th>
-    </tr>
+  <table>
+    <thead>
+      <tr>
+        <th scope="col">#</th>
+        <th scope="col">Country</th>
+        <th scope="col">Area</th>
+        <th scope="col">Population</th>
+      </tr>
     </thead>
     <tbody>
-    <tr *ngFor="let commit of commits; index as i">
-      <th scope="row">{{ i + 1 }}</th>
-      <td>
-        
-      </td>
-      <td>{{  }}</td>
-      <td>{{  }}</td>
-    </tr>
+      <tr *ngFor="let commit of commits; index as i">
+        <th scope="row">{{ i + 1 }}</th>
+        <td></td>
+        <td>{{ commit.author.id }}</td>
+        <td>{{ commit.url }}</td>
+      </tr>
     </tbody>
-  </table> -->
+  </table>
 </div>
