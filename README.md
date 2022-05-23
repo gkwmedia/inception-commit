@@ -1,27 +1,16 @@
-# InceptionCommit
+#Inception Commit History
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.6.
+Inception Commit History is a project that shows and inception of commits. I choose this name from as I thought the idea reminded me of the movie Inception. The project showcases all of the commits that I used to make the site in itself giving you an idea of the steps taken to create it.
 
-## Development server
+## Basic Ddependencies
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+- Code Editor or terminal access
+- Node JS - if you do not have Node JS installed you can download it from: https://nodejs.org/en/download/
+- Angular CLI - to install this you must have Node isntalled. Simply run the command "npm install -g @angular/cli" in your terminal to install the Angular CLI
 
-## Code scaffolding
+## Running Inception Development Server
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+- Start by either cloning the github respository (using this command "gh repo clone gkwmedia/inception-commit") or downloading the code directly from github
+- Open the project folder in your code editor or navigate to the directory within your terminal
+- If you opened the project in your code editor open a terminal within your editor (ensuring the directy of the terminal is the same as the project) and type the command "npm install". This will install of the dependencies for the projct. If you did not open the project in a code editor but are in the terminal you will need to type "npm install" in your teriminal.
+- From here you can start the developent server of the project by typing ng serve and navigating to Localhost:4200 in your browser.
