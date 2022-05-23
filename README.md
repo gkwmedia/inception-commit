@@ -1,4 +1,4 @@
-#Inception Commit History
+# Inception Commit History
 
 Inception Commit History is a project that shows and inception of commits. I choose this name from as I thought the idea reminded me of the movie Inception. The project showcases all of the commits that I used to make the site in itself giving you an idea of the steps taken to create it.
 
