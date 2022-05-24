@@ -7,9 +7,10 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 import { CommitListComponent } from './commit-list/commit-list.component';
+import { AvatarImgComponent } from './components/avatar-img/avatar-img.component';
 
 @NgModule({
-  declarations: [AppComponent, NavbarComponent, CommitListComponent],
+  declarations: [AppComponent, NavbarComponent, CommitListComponent, AvatarImgComponent],
   imports: [BrowserModule, HttpClientModule, NgbModule],
   providers: [],
   bootstrap: [AppComponent],
