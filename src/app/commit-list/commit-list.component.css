@@ -64,30 +64,3 @@ h3 {
   display: flex;
   align-items: center;
 }
-
-.avatar-img {
-  width: 30px;
-  border-radius: 100%;
-  margin: 0.25rem 0.5rem 0.25rem 0rem;
-}
-
-.code-icon-wrapper {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-radius: 0.5rem;
-  padding: 0.25rem 0.5rem;
-  background-color: rgba(90, 85, 85, 25%);
-  transition: all 200ms ease-in-out;
-  cursor: pointer;
-}
-
-.code-icon-wrapper:hover {
-  background-color: rgba(90, 85, 85, 50%);
-}
-
-.icon-link {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}

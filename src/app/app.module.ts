@@ -8,9 +8,10 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 import { CommitListComponent } from './commit-list/commit-list.component';
 import { AvatarImgComponent } from './components/avatar-img/avatar-img.component';
+import { CodeBtnComponent } from './components/code-btn/code-btn.component';
 
 @NgModule({
-  declarations: [AppComponent, NavbarComponent, CommitListComponent, AvatarImgComponent],
+  declarations: [AppComponent, NavbarComponent, CommitListComponent, AvatarImgComponent, CodeBtnComponent],
   imports: [BrowserModule, HttpClientModule, NgbModule],
   providers: [],
   bootstrap: [AppComponent],
